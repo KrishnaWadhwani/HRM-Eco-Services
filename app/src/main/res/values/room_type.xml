@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="room_type">
+        <item>Place To Sanitize</item>
+        <item>Small Room</item>
+        <item>Medium Room</item>
+        <item>Large Room</item>
+        <item>Any-Item (AC, TV, Treadmill, Etc..)</item>
+        <item>Kitchen</item>
+        <item>Bathroom</item>
+        <item>Hall</item>
+        <item>Small Lawn</item>
+        <item>Medium Lawn</item>
+        <item>Large Lawn</item>
+        <item>Office</item>
+        <item>Other (Not Listed Above)</item>
+    </string-array>
+</resources>

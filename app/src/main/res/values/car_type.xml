@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="car_type">
+        <item>Type Of Car</item>
+        <item>Sedan</item>
+        <item>Hatchback</item>
+        <item>Sport-Utility Vehicle (SUV)</item>
+        <item>Coupe</item>
+        <item>Sports Car</item>
+        <item>Station Wagon</item>
+        <item>Convertible</item>
+        <item>Mini Van</item>
+        <item>Pickup Truck</item>
+        <item>Can\'t Say</item>
+    </string-array>
+</resources>

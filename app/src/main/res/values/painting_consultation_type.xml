@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="painting_consultation">
+        <item>Select A Type Of Consultation</item>
+        <item>Painting Consultation</item>
+        <item>Whitewash Consultation</item>
+        <item>Enamel Consultation</item>
+        <item>Waterproofing Consultation</item>
+        <item>Textured Wall Consultation</item>
+    </string-array>
+</resources>

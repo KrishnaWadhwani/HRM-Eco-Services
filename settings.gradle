@@ -1,0 +1,2 @@
+rootProject.name = "HRM Eco Services"
+include ':app'

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="painting_options">
+        <item>Select A Option</item>
+        <item>Book Painting Consultation</item>
+        <item>Book Painting Services</item>
+    </string-array>
+</resources>

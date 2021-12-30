@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.eco.hrmecoservices">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HRMEcoServices">
+        <activity
+            android:name=".moreInfoActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="More Information About Service" />
+        <activity
+            android:name=".coupon_code"
+            android:configChanges="orientation|screenSize"
+            android:label="Apply Coupon Code" />
+        <activity
+            android:name=".OrderPaintingServices"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Painting Consultation Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderBathroomCleaning"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Bathroom Cleaning Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderToiletCleaning"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Toilet Cleaning Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderCarCleaning"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Car Cleaning Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderCarpetCleaning"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Carpet Cleaning Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderKitchenCleaning"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Kitchen Cleaning Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderSofaCleaning"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Sofa Cleaning Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderRoomCleaning"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Room Cleaning Service"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".RemoveFromCart" />
+        <activity
+            android:name=".ComingSoon"
+            android:label="We Are Coming Soon..."
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OrderHomeCleaning"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Home Cleaning Service"
+            android:parentActivityName=".MainActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".UserLocation"
+            android:configChanges="orientation|screenSize"
+            android:label="Configure Your Location" />
+        <activity
+            android:name=".NoInternet"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name=".ChangeLocation"
+            android:configChanges="orientation|screenSize"
+            android:parentActivityName=".UserLocation" />
+        <activity
+            android:name=".phone_number_verify"
+            android:configChanges="orientation|screenSize"
+            android:label="Verify Phone Number" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".OrderSanitization"
+            android:configChanges="orientation|screenSize"
+            android:label="Book Sanitization Service"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:largeHeap="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

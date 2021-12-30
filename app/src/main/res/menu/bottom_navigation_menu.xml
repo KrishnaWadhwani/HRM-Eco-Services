@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/home_foreground"
+        android:title="Home"/>
+    <item
+        android:id="@+id/cart"
+        android:enabled="true"
+        android:icon="@drawable/cart_foreground"
+        android:title="Cart"/>
+    <item
+        android:id="@+id/orders"
+        android:enabled="true"
+        android:icon="@drawable/orders_foreground"
+        android:title="Orders"/>
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:icon="@drawable/settings_foreground"
+        android:title="Settings"/>
+</menu>

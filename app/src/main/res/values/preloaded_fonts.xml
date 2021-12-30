@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/allerta</item>
+        <item>@font/amaranth</item>
+        <item>@font/amatica_sc</item>
+        <item>@font/amatica_sc_bold</item>
+        <item>@font/archivo_black</item>
+        <item>@font/benchnine_light</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bungee</item>
+        <item>@font/margarine</item>
+        <item>@font/plaster</item>
+        <item>@font/titan_one</item>
+        <item>@font/ubuntu_medium</item>
+        <item>@font/yellowtail</item>
+    </array>
+</resources>

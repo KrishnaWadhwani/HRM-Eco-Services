@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sofa_type">
+        <item>Type Of Sofa</item>
+        <item>Wooden Sofa</item>
+        <item>Rexine Sofa</item>
+        <item>Metal Sofa</item>
+        <item>Plastic Sofa</item>
+        <item>Other Type Of Sofa</item>
+    </string-array>
+</resources>

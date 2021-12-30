@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carpet_type">
+        <item>Type Of Carpet</item>
+        <item>Small Carpet(s)</item>
+        <item>Medium Carpet(s)</item>
+        <item>Large Carpet(s)</item>
+        <item>Can\'t Say</item>
+    </string-array>
+</resources>
