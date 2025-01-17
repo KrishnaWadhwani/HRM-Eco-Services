@@ -13,7 +13,7 @@ HRM Eco Services Is India's Only App With No Headache Home Cleaning Services Jus
 
 # Updates
 
-Live On Playstore :-)
+Live On Playstore :-) [My play console account just got suspended, sorry for that]
 
 # Privacy Policy
 
